@@ -1,8 +1,8 @@
 let boxes = document.querySelectorAll(".box");
-let resetBtn=document.getElementById("reset-btn");
-let newBtn=document.getElementById("new-btn");
-let msg=document.getElementById("msg");
-let msgContainer = document.getElementsByClassName("msg-container")
+let resetBtn=document.querySelector("#reset-btn");
+let newBtn=document.querySelector("#new-btn");
+let msg=document.querySelector("#msg");
+let msgContainer = document.querySelector(".msg-container")
 
 let turn0 = true;
 let count = 0;
